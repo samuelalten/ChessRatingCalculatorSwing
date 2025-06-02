@@ -4,7 +4,7 @@ FROM openjdk:17-jdk-slim
 WORKDIR /app
  
 # Copiar el archivo JAR al contenedor
-COPY target/RaitingCalculator.jar app.jar
+COPY target/ChessRatingCalculator-1.0.0.jar app.jar
  
 # Exponer el puerto si la app lo necesita
 EXPOSE 8000
